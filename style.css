@@ -14,13 +14,17 @@ body {
     background-color: #4488DD;
     background-image: linear-gradient(#95c5ff, #4488dd, #2266cc);
     background-repeat: space;
-    background-size: contain;
+    background-size: cover;
     padding-bottom: 50%;
 }
 
 body *::selection {
     color: #0000ff;
     background-color: aliceblue;
+}
+
+a:link, a:visited {
+    color: #0000ff;
 }
 
 h1, h2 {
@@ -45,13 +49,28 @@ div, p {
 }
 
 li, table, ul {
+    text-align: left;
     margin: auto;
     width: 50%;
+}
+
+table {
+    border: 2px #000055 solid;
+    border-radius: 5px;
+    background-color: #aac8ee;
 }
 
 .citation {
     font-size: 50%;
     vertical-align: top;
+}
+
+.home {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-weight: bold;
 }
 
 .textbox {
@@ -64,6 +83,10 @@ li, table, ul {
     margin-left: 10%;
     margin-right: 10%;
     padding: 10px;
+}
+
+#oceanimg {
+    opacity: 60%;
 }
 
 #pufferfish {
