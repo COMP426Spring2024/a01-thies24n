@@ -54,7 +54,7 @@ li, table, ul {
     vertical-align: top;
 }
 
-.top_info {
+.textbox {
     background-color: #aac8ee;
     border: 5px;
     border-width: 3cm;
@@ -64,4 +64,20 @@ li, table, ul {
     margin-left: 10%;
     margin-right: 10%;
     padding: 10px;
+}
+
+#pufferfish {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+
+    background-image: url("pufferfish0.png");
+    background-size: cover;
+    filter: opacity(60%);
+}
+
+#pufferfish:hover {
+    width: 400px;
+    height: 400px;
+    background-image: url("pufferfish1.png");
 }
